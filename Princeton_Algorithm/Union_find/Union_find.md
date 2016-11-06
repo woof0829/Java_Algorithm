@@ -81,3 +81,6 @@ Concept: 相连的节点所构成的集合
 如果需要将p q进行连接，则需要将二者对应的根节点数设为相同值
 
 ![enter image description here](http://img.blog.csdn.net/20130901134321640)
+
+####复杂度
+在最坏的情况下，查找操作的复杂度仍将达到N
