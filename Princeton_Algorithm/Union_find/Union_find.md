@@ -62,3 +62,22 @@ Concept: 相连的节点所构成的集合
 每一次合并的复杂度为N，当合并次数非常大的时候，趋近于N，运算的复杂度则为N^2,因此该算法不适合较大规模运算。
 
 查找操作的复杂度为1.
+
+### Quick Union(Lazy Approach)
+
+####数据结构
+1. 整型数组id[],大小为N
+2. Interpretation: 数组的每个元素id[i]指的是i的上一级为id[i]
+3. i的根节点 id[id[id[...id[]...]]]
+
+
+
+####Find操作
+
+如果P和Q两个值对应相同的根节点，则为找到
+
+####Union操作
+
+如果需要将p q进行连接，则需要将二者对应的根节点数设为相同值
+
+![enter image description here](http://img.blog.csdn.net/20130901134321640)
