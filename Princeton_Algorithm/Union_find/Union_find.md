@@ -84,3 +84,12 @@ Concept: 相连的节点所构成的集合
 
 ####复杂度
 在最坏的情况下，查找操作的复杂度仍将达到N
+
+###Quick Union的优化
+通过每个节点增加quality的概念，使得quality小的component位于大的component之下，从而避免了树形结构过高的问题。
+
+如下图展示了树形结构深度优化后的效果
+![enter image description here](http://img.blog.csdn.net/20140602174057171?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvY2FpcGVpY2hhbzI=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+
+####复杂度
+合并操作的最坏复杂度为lgN,查询操作的最坏复杂度为lgN
