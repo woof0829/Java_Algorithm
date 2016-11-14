@@ -4,7 +4,7 @@
 
 在java当中，元素通常都是对象，对主键的抽象描述是通过一种内部构建的机制来完成的(java中的Comparable接口)
 
-####比较函数的性质
+#### 比较函数的性质
 
 比较函数需要满足如下性质才能是的排序函数正常执行：
 
@@ -12,10 +12,40 @@
 2. 传递性：a<=b且b<=c推出a<=c
 3. 整体性：存在a<=b或者b<=a或者二者同时存在
 
-#####辅助函数
+#### 辅助函数
 
-less: 判断两个相比较的元素是否存在小于关系
+* less: 判断两个相比较的元素是否存在小于关系
 
-exchange：交换比较数组中的元素
+* exchange：交换比较数组中的元素
 
-顺序检查： 检查排序的数组是否已经完成排序
+* 顺序检查： 检查排序的数组是否已经完成排序
+
+#### Template of Sorting Algorithm
+```
+public class Template{
+    public static void sort(Comparable[] a){
+        /* Code */
+    }
+    private static boolean less(Comparable v, Comparable w){
+        return v.Comparable(w) < 0;
+    }
+    private static void exchange(Comparable[] a, int i, int j){
+        Comparable t = a[i];
+        a[i] = a[j];
+        a[j] = t;
+    }
+    private static void show(Comparable[] a){
+        // Print Array
+        for(int i = 0; i < a.length; i++){
+            System.out.println(a[i] + "");
+        }
+        System.out.println();
+    }
+    public static boolean isSorted(Comparable[] a){
+        // Test if the Array is sorted
+        for(int i = 1; i < a.length; i++){
+            if(less(a[i]), a[i-1]) return false;
+        }
+    }
+}
+```
