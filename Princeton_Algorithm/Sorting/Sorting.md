@@ -46,6 +46,13 @@ public class Template{
         for(int i = 1; i < a.length; i++){
             if(less(a[i]), a[i-1]) return false;
         }
+        return true;
+    }
+    public static void main(String[] args){
+        String[] a = In.readString();
+        sort(a);
+        assert isSorted(a);
+        show(a);
     }
 }
 ```
