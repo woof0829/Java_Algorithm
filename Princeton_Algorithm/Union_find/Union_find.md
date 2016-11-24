@@ -4,7 +4,6 @@
 有N个元素，从0-N-1编号，假如两个元素之间的连接视为通路，当执行多次任意的两个元素之间的连接之后，如何判断两个元素能够经由已有路径相连通。对于连接的动作称为union，判断是否连接的操作称为find，如下图
 
 ![enter image description here](http://obpbs8a3y.bkt.clouddn.com/1.jpg)
-=======
 ![enter image description here](http://img.blog.csdn.net/20130901114328078)
 
 从上图中可以看出，0, 1, 2, 5, 6, 7 中的任意两个元素都是相连的，同样 3, 4, 8, 9 中任意两个元素也是互连的，但是第一个集合和第二个集合的元素却是无法连通的。
