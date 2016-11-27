@@ -3,7 +3,7 @@
 ### 栈 Stack
 
 #### Basic API of Stack
-```
+```java
 public class Stack<Item> implements Iterable<Item>
 
 Stack() //创建空栈
@@ -24,7 +24,7 @@ int size() //栈中包含元素的数量
 
 #### stack push 的 linkedlist 实现
 
-```
+```java
 inner class
 private class Node{
     String item;
@@ -33,6 +33,7 @@ private class Node{
 //对节点进行初始化
 ```
 * Push 操作
+
     ![enter image description here](http://algs4.cs.princeton.edu/13stacks/images/linked-list-insert-front.png)
 
 * Pop 操作

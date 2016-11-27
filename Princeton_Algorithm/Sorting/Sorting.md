@@ -21,7 +21,7 @@
 * 顺序检查： 检查排序的数组是否已经完成排序
 
 #### Template of Sorting Algorithm
-```
+```java
 public class Template{
     public static void sort(Comparable[] a){
         /* Code */

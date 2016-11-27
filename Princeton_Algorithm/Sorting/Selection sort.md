@@ -10,7 +10,7 @@
 
     对于选择排序来说，当数组长度为N, 其大约需要N^2/2次比较与N次交换
 
-```
+```java
 public class Selection{
     public static void sort(Comparable[] a){
         int N = a.length;

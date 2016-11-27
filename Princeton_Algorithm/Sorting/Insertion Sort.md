@@ -18,7 +18,7 @@
 
     ![enter image description here](http://img.blog.csdn.net/20140602175214796?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvY2FpcGVpY2hhbzI=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
-```
+```java
 public class Insertion{
     public static void sort(Comparable[] a){
         //将a[]按升序排列

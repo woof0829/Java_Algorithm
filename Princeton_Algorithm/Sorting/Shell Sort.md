@@ -9,7 +9,7 @@
 
     ![enter image description here](http://algs4.cs.princeton.edu/21elementary/images/h-sorted.png)
 
-```
+```java
     public class Shell{
         public static void sort(Comparable[] a){
             // 将a[]按升序排列
