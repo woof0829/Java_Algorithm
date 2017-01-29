@@ -7,3 +7,5 @@
 ### 类型
 
 一棵深度为K，同时含有2^k-1个节点的二叉树，被称为满二叉树，这种树每一层的节点数都是最大节点数。在一棵二叉树当中，除最后一层之外，其余每层都是满的。具有n个节点的完全二叉树的深度为log2n+1，深度为k的完全二叉树至少有2^(k-1)个节点，至多有2^k-1个节点。
+
+![](https://www.tutorialspoint.com/data_structures_algorithms/images/binary_tree.jpg)
